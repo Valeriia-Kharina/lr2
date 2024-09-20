@@ -1,0 +1,40 @@
+.calculator{
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#screen{
+    width: 95%;
+    height: 40px;
+    padding-left: 10px;
+    margin: 0 auto 10px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+button{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.equals {
+    background-color: rgb(68, 80, 208);
+    grid-row: span 3; 
+    grid-column: 4;
+}
+
+.clear{
+    background-color: rgb(193, 55, 64);
+}
+
+
